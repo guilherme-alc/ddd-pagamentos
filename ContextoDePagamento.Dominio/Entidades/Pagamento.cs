@@ -1,8 +1,11 @@
+using ContextoDePagamento.Compartilhado.Entidades;
+using ContextoDePagamento.Dominio.ObjetosDeValor;
+
 namespace ContextoDePagamento.Dominio.Entidades
 {
-    public class Pagamento
+    public class Pagamento : Entidade
     {
-        public Pagamento(DateTime dataPagamento, DateTime dataExpiracao, decimal total, decimal totalPago, string endereco, string documento, string pagador, string email)
+        public Pagamento(DateTime dataPagamento, DateTime dataExpiracao, decimal total, decimal totalPago, Endereco endereco, Documento documento, string pagador, Email email)
         {
             Numero = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 10).ToUpper();
             DataPagamento = dataPagamento;
@@ -20,9 +23,9 @@ namespace ContextoDePagamento.Dominio.Entidades
         public DateTime DataExpiracao { get; private set; }
         public decimal Total { get; private set; }
         public decimal TotalPago { get; private set; }
-        public string Endereco { get; private set; }
-        public string Documento { get; private set; }
+        public Endereco Endereco { get; private set; }
+        public Documento Documento { get; private set; }
         public string Pagador { get; private set; }
-        public string Email { get; private set; }
+        public Email Email { get; private set; }
     }
 }

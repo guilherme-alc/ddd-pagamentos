@@ -1,6 +1,8 @@
+using ContextoDePagamento.Compartilhado.Entidades;
+
 namespace ContextoDePagamento.Dominio.Entidades
 {
-    public class Assinatura
+    public class Assinatura : Entidade
     {
         private IList<Pagamento> _pagamentos;
         public Assinatura(DateTime? dataVencimento)

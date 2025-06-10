@@ -1,4 +1,6 @@
 ﻿
+using ContextoDePagamento.Dominio.ObjetosDeValor;
+
 namespace ContextoDePagamento.Dominio.Entidades
 {
     public class PagamentoPaypal : Pagamento
@@ -8,10 +10,10 @@ namespace ContextoDePagamento.Dominio.Entidades
             DateTime dataExpiracao,
             decimal total,
             decimal totalPago,
-            string endereco,
-            string documento,
+            Endereco endereco,
+            Documento documento,
             string pagador,
-            string email,
+            Email email,
             string codigoTransacao) 
             : base(dataPagamento, dataExpiracao, total, totalPago, endereco, documento, pagador, email)
         {

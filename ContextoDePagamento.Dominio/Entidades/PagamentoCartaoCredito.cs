@@ -1,4 +1,6 @@
 ﻿
+using ContextoDePagamento.Dominio.ObjetosDeValor;
+
 namespace ContextoDePagamento.Dominio.Entidades
 {
     public class PagamentoCartaoCredito : Pagamento
@@ -8,10 +10,10 @@ namespace ContextoDePagamento.Dominio.Entidades
             DateTime dataExpiracao,
             decimal total,
             decimal totalPago,
-            string endereco,
-            string documento,
+            Endereco endereco,
+            Documento documento,
             string pagador,
-            string email,
+            Email email,
             string nomeTitular,
             string numeroCartao,
             string numeroUltimaTransacao) 
