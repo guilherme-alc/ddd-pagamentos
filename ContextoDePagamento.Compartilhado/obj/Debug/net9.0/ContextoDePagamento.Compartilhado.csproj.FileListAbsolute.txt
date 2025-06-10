@@ -1,0 +1,11 @@
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\bin\Debug\net9.0\ContextoDePagamento.Compartilhado.deps.json
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\bin\Debug\net9.0\ContextoDePagamento.Compartilhado.dll
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\bin\Debug\net9.0\ContextoDePagamento.Compartilhado.pdb
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\obj\Debug\net9.0\ContextoDePagamento.Compartilhado.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\obj\Debug\net9.0\ContextoDePagamento.Compartilhado.AssemblyInfoInputs.cache
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\obj\Debug\net9.0\ContextoDePagamento.Compartilhado.AssemblyInfo.cs
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\obj\Debug\net9.0\ContextoDePagamento.Compartilhado.csproj.CoreCompileInputs.cache
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\obj\Debug\net9.0\ContextoDePagamento.Compartilhado.dll
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\obj\Debug\net9.0\refint\ContextoDePagamento.Compartilhado.dll
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\obj\Debug\net9.0\ContextoDePagamento.Compartilhado.pdb
+C:\dev\ContextoDePagamento\ContextoDePagamento.Compartilhado\obj\Debug\net9.0\ref\ContextoDePagamento.Compartilhado.dll

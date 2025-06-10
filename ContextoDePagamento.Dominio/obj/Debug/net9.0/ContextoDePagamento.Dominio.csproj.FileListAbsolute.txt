@@ -1,0 +1,15 @@
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\net9.0\ContextoDePagamento.Dominio.deps.json
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\net9.0\ContextoDePagamento.Dominio.dll
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\net9.0\ContextoDePagamento.Dominio.pdb
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\ContextoDePagamento.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\ContextoDePagamento.Dominio.AssemblyInfoInputs.cache
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\ContextoDePagamento.Dominio.AssemblyInfo.cs
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\ContextoDePagamento.Dominio.csproj.CoreCompileInputs.cache
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\ContextoDePagamento.Dominio.dll
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\refint\ContextoDePagamento.Dominio.dll
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\ContextoDePagamento.Dominio.pdb
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\ref\ContextoDePagamento.Dominio.dll
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\net9.0\ContextoDePagamento.Compartilhado.dll
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\net9.0\ContextoDePagamento.Compartilhado.pdb
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\ContextoDePagamento.Dominio.csproj.AssemblyReference.cache
+C:\dev\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\net9.0\Contexto.F7D13B10.Up2Date

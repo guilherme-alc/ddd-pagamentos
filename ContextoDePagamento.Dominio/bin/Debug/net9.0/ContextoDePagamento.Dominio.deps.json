@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ContextoDePagamento.Dominio/1.0.0": {
+        "dependencies": {
+          "ContextoDePagamento.Compartilhado": "1.0.0"
+        },
+        "runtime": {
+          "ContextoDePagamento.Dominio.dll": {}
+        }
+      },
+      "ContextoDePagamento.Compartilhado/1.0.0": {
+        "runtime": {
+          "ContextoDePagamento.Compartilhado.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContextoDePagamento.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ContextoDePagamento.Compartilhado/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
