@@ -1,5 +1,6 @@
 using ContextoDePagamento.Compartilhado.Entidades;
 using ContextoDePagamento.Dominio.ObjetosDeValor;
+using Flunt.Validations;
 
 namespace ContextoDePagamento.Dominio.Entidades
 {
@@ -12,6 +13,8 @@ namespace ContextoDePagamento.Dominio.Entidades
             Documento = documento;
             Email = email;
             _assinaturas = new List<Assinatura>();
+
+            AddNotifications(nome, documento, email);
         }
 
         public Nome Nome { get; private set; }
@@ -21,11 +24,16 @@ namespace ContextoDePagamento.Dominio.Entidades
         public IReadOnlyCollection<Assinatura> Assinaturas { get { return _assinaturas.ToArray(); } }
         public void AdicionarAssinatura(Assinatura assinatura)
         {
-            foreach (var item in Assinaturas)
-            {
-                item.AlterarStatus(false);
-            }
-            _assinaturas.Add(assinatura);
+            var temAssinaturaAtiva = _assinaturas.Any(a => a.Ativo);
+
+            AddNotifications(new Contract<Estudante>()
+                .Requires()
+                .IsFalse(temAssinaturaAtiva, "Estudante.Assinatura", "O estudante já possui uma assinatura ativa.")
+                .IsTrue(assinatura.Pagamentos.Any(), "Estudante.Assinatura.Pagamentos", "Assinatura deve ter pelo menos um pagamento")
+            );
+
+            if (IsValid)
+                _assinaturas.Add(assinatura);
         }
     }
 }

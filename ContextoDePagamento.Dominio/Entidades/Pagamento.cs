@@ -1,5 +1,6 @@
 using ContextoDePagamento.Compartilhado.Entidades;
 using ContextoDePagamento.Dominio.ObjetosDeValor;
+using Flunt.Validations;
 
 namespace ContextoDePagamento.Dominio.Entidades
 {
@@ -16,6 +17,18 @@ namespace ContextoDePagamento.Dominio.Entidades
             Documento = documento;
             Pagador = pagador;
             Email = email;
+
+            AddNotifications(new Contract<Pagamento>()
+                .Requires()
+                .IsNotNullOrEmpty(Numero, "Pagamento.Numero", "O número do pagamento não pode ser vazio.")
+                .IsGreaterThan(Total, 0, "Pagamento.Total", "O total do pagamento deve ser maior que zero.")
+                .IsGreaterThan(TotalPago, 0, "Pagamento.TotalPago", "O total pago deve ser maior que zero.")
+                .IsNotNull(Endereco, "Pagamento.Endereco", "O endereço do pagamento não pode ser nulo.")
+                .IsNotNull(Documento, "Pagamento.Documento", "O documento do pagador não pode ser nulo.")
+                .IsNotNullOrEmpty(Pagador, "Pagamento.Pagador", "O nome do pagador não pode ser vazio.")
+                .IsNotNull(Email, "Pagamento.Email", "O e-mail do pagador não pode ser nulo.")
+            );
+            AddNotifications(Endereco, Documento, Email);
         }
 
         public string Numero { get; private set; }
